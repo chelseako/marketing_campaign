@@ -1,9 +1,10 @@
 # Marketing Campaign
 * Built a classification model with 80% accuracy and F1-score of 0.49 on the test data to predict customer acceptance of a marketing campaign.
-* Conducted data exploration and preprocessing to clean and prepare the data for analysis.
+* Identifying customers who are more likely to accept the campaign will assist companies in using their marketing resources more effectively.
+* Cleaned and conducted data exploration on 2,240 observations and 29 columns.
 
 Compared model performance on two datasets: 
-1. A standardized
+1. A standardized dataset
 2. A standardized dataset that used Synthetic Minority Oversampling Technique (SMOTE) and Random Undersampling to address class imbalance.
 
 Used GridSearchCV on the following models to determine the best parameters: 
