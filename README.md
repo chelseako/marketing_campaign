@@ -1,7 +1,7 @@
 # Marketing Campaign
 * Built a classification model with 80% accuracy and an F1-score of 0.49 on the test data to predict customer acceptance of a marketing campaign.
-* Identifying customers who are more likely to accept the campaign will assist companies in using their marketing resources more effectively.
-* Cleaned and conducted data exploration on 2,240 observations and 29 columns (2 categorical, 1 date type, and the remaining 26 were numerical) from https://www.kaggle.com/rodsaldanha/arketing-campaign.
+* Identifying customers who are more likely to accept the campaign will assist companies in using their marketing resources more effectively, increasing overall profit.
+* Cleaned and conducted data exploration on 2,240 observations and 29 columns (2 categorical, 1 date type, and the remaining 26 numerical) from https://www.kaggle.com/rodsaldanha/arketing-campaign.
 * Compared model performance on a standardized original dataset and a standardized dataset that was balanced using Synthetic Minority Oversampling Technique (SMOTE) and Random Undersampling. 
 * Used GridSearchCV to identify the best parameters on seven different classification models.
 * Compared nine different classification metrics, including an engineered profit metric. 
@@ -15,18 +15,18 @@ Data included 2,240 observations and 29 columns.
 * Examined missing values and addressed 24 missing income values using scikit-learn's Iterative Imputer function.
 * Examined distribution of categorical and numeric variables; removed one income outlier.
 * Engineered features, including re-binning marital status into two categorices and aggregating total amount spent, total number of purchases, total number of minors in the home, and total number of campaigns previously accepted.
-* Split data into training, validation, and testing set
+* Split data into training, validation, and testing sets.
 * Standardized data using scikit learn's StandardScalar() function.
 
 ## Model Building  
 Compared model performance on two datasets: 
-1. A standardized dataset
-2. A standardized dataset that used Synthetic Minority Oversampling Technique (SMOTE) and Random Undersampling to address class imbalance.
+1. Standardized dataset
+2. Standardized dataset that used Synthetic Minority Oversampling Technique (SMOTE) and Random Undersampling to address class imbalance.
 
 Used GridSearchCV on the following models to determine the best parameters: 
 * Logistic Regression
 * Support Vector Machines
-* KNN
+* K Nearest Neighbors
 * Decision Tree
 * Random Forest
 * Adaboost
