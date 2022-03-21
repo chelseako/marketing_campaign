@@ -2,7 +2,7 @@
 * Built a classification model with 80% accuracy and an F1-score of 0.49 on the test data to predict customer acceptance of a marketing campaign.
 * Identifying customers who are more likely to accept the campaign will assist companies in using their marketing resources more effectively.
 * Cleaned and conducted data exploration on 2,240 observations and 29 columns (2 categorical, 1 date type, and the remaining 26 were numerical) from https://www.kaggle.com/rodsaldanha/arketing-campaign.
-* Compared model performance on a standard original dataset and a standardized dataset that was balanced using Synthetic Minority Oversampling Technique (SMOTE) and Random Undersampling. 
+* Compared model performance on a standardized original dataset and a standardized dataset that was balanced using Synthetic Minority Oversampling Technique (SMOTE) and Random Undersampling. 
 * Used GridSearchCV to identify the best parameters on seven different classification models.
 * Compared nine different classification metrics, including an engineered profit metric. 
 * The two best models were selected and evalauted on the set aside test data. Results indicate the **Random Forest Classifier** produced the best overall metrics, including the highest profit score.
