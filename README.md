@@ -10,19 +10,13 @@
 ## Code and Resources Used
 **Packages:** numpy, pandas, seaborn, matplotlib, sklearn
 
-## Data Cleaning
+## Data Cleaning and Preprocessing
 Data included 2,240 observations and 29 columns.
 * Examined missing values and addressed 24 missing income values using scikit-learn's Iterative Imputer function.
-* Examined distribution of categorical and numeric variables.
-* Engineered features, including total amount spent, total number of purchases, total number of minors in the home, and total number of campaigns previously accepted.
-* Removed one income outlier.
-
-## Data Exploration
-Examined the frequencies of cateogorical variables and the distributions and relationships between numeric variables.
-
-![Histograms of Movies Variables](https://github.com/chelseako/ml_recommender_system/blob/main/movie.png)
-
-![Histograms of Users Variables](https://github.com/chelseako/ml_recommender_system/blob/main/user.png)
+* Examined distribution of categorical and numeric variables; removed one income outlier.
+* Engineered features, including re-binning marital status into two categorices and aggregating total amount spent, total number of purchases, total number of minors in the home, and total number of campaigns previously accepted.
+* Split data into training, validation, and testing set
+* Standardized data using scikit learn's StandardScalar() function.
 
 ## Model Building  
 Compared model performance on two datasets: 
