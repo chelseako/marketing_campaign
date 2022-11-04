@@ -1,5 +1,3 @@
-### [Back to Chelsea Ko's Portfolio](https://chelseako.github.io/Portfolio/)
-
 # Marketing Campaign
 * Built a classification model with 81% accuracy and an F1-score of 0.47 on the test data to predict customer acceptance of a marketing campaign.
 * Identifying customers who are more likely to accept the campaign will assist companies in using their marketing resources more effectively, increasing overall profit.
@@ -56,5 +54,7 @@ Profit = (True positives x \$11 revenue) - (False positives x \$3 cost) - (False
 ## Results
 
 Using profit as the main evaluator, the **Random Forest Classifier** and the **Logistic Regression Classifier** were chosen as the two best models. These two models were evaluated on the set aside test data. Results indicate the **Random Forest Classifier** produced the best overall metrics, including the highest profit score.
+
+### [Link to Project GitHub Repository](https://github.com/chelseako/marketing_campaign)
 
 ### [Back to Chelsea Ko's Portfolio](https://chelseako.github.io/Portfolio/)
