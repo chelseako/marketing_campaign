@@ -1,6 +1,6 @@
 ![Profile picture](/images/marketing.png) 
 
-# Marketing Campaign
+# Project Overview
 * Built a classification model with 81% accuracy and an F1-score of 0.47 on the test data to predict customer acceptance of a marketing campaign.
 * Identifying customers who are more likely to accept the campaign will assist companies in using their marketing resources more effectively, increasing overall profit.
 * Cleaned and conducted data exploration on 2,240 observations and 29 columns (2 categorical, 1 date type, and the remaining 26 numerical) from https://www.kaggle.com/rodsaldanha/arketing-campaign.
