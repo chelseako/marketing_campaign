@@ -1,3 +1,5 @@
+![Profile picture](/images/ko3.png) 
+
 # Marketing Campaign
 * Built a classification model with 81% accuracy and an F1-score of 0.47 on the test data to predict customer acceptance of a marketing campaign.
 * Identifying customers who are more likely to accept the campaign will assist companies in using their marketing resources more effectively, increasing overall profit.
